@@ -77,7 +77,7 @@ public class JogoDaVelha {
             if (ganhou==1){
                 System.out.println("Jogador "+jogador+" ganhou apos "+ (jogada+1)+" rodadas");
                 mostrar_tabuleiro(board);
-                System.out.println("Até a próxima!");
+                System.out.println("Até a próxima! Bye Bye");
             }
             
             if(completo(board)==true){
